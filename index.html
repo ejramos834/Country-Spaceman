@@ -10,18 +10,19 @@
 </head>
 
 <body>
-    <h1>Country Spaceman</h1>
-    <p>Guess the country!</p>
-    <box class="box"></box>
-
-    <section class="letters">
-        <button id="a">a</button>
-        <button id="j">j</button>
-        <button id="a">a</button>
-        <button id="n">n</button>
-        <button id="p">p</button>
-    </section>
-
+    <h1>Country Spaceman: Guess the country!</h1>
+    <p>Choose a letter to begin the game. You have 10 chances to win!</p>
+    <div id="game-container">
+        <div id="word-display"></div>
+        <div id="used-letters">Used Letters:</div>
+        <div id="remaining-guesses">Guesses Remaining: 10</div>
+        <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
+        <button id="guess-button">Guess</button>
+        <div id="game-status"></div>
+    </div>
 </body>
+<footer>
+    <h3>Game made by Eddie Ramos</h3>
+</footer>
 
 </html>
